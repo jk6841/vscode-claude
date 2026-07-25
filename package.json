@@ -1,0 +1,12 @@
+{
+  "name": "vscode-claude",
+  "private": true,
+  "scripts": {
+    "slides": "MARP_UI_STORAGE=./slides/marp-ui marp-ui",
+    "slides:export": "marp --html --theme ./slides/marp-ui/themes/vscode-ai/vscode-ai.css ./slides/marp-ui/decks/vscode-ai/vscode-ai.md --output ./slides/vscode-ai.html"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.2.3",
+    "marp-ui": "^0.6.1"
+  }
+}

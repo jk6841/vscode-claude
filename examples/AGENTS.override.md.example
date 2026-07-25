@@ -1,0 +1,8 @@
+# Temporary override example
+
+`AGENTS.override.md` takes precedence over `AGENTS.md` in the same directory.
+Rename this file only when a temporary, explicit override is genuinely needed.
+
+- Limit the override to the smallest possible scope.
+- Remove it when the exceptional work is complete.
+

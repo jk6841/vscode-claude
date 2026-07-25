@@ -1,0 +1,11 @@
+{
+  "enabledMcpjsonServers": [
+    "github"
+  ],
+  "enabledPlugins": {
+    "codex@openai-codex": true
+  },
+  "permissions": {
+    "allow": []
+  }
+}

@@ -1,0 +1,6 @@
+# Organization-managed policy example.
+# This is not a normal per-project configuration file.
+
+allowed_sandbox_modes = ["read-only", "workspace-write"]
+allowed_approval_policies = ["on-request"]
+

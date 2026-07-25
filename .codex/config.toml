@@ -1,0 +1,9 @@
+# Project-scoped Codex settings.
+# Keep model choice in the user's global configuration unless the project needs a fixed model.
+
+sandbox_mode = "workspace-write"
+approval_policy = "on-request"
+
+# MCP servers can also be configured here when the project needs external tools.
+# Do not store credentials directly in this file.
+
